@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+	padding: 40px;
+	text-align: left;
+	color: white;
+	background: #3399FF
+}
+/*Μενού Σελίδας*/
+.menubar {
+	overflow: hidden;
+	background-color: #003366;
+}
+/*Links του Μενού Σελίδας*/
+.menubar a {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 20px 40px;
+}
+.menubar p {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+/*Links του Μενού Σελίδας με δεξιά στοίχιση*/
+.menubar a.right {
+	float: right;
+}
+
+.dropdown { /* Dropdown Container */
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn { /* Κουμπί Dropdown */
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 20px 40px;
+}
+
+.dropdown-menu { /*Dropdown content*/
+	display: none;
+	position: absolute;
+	background-color: #003366;
+	min-width: 100px;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a {
+	float: none;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	padding: 20px 40px;
+}
+
+.dropdown-menu a:hover {
+	background-color: #CCE5FF;
+	color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/*Συμπεριφορά συνδέσμων του μενού κατά το πέρασμα του κέρσορα από πάνω*/
+.menubar a:hover{
+	background-color: #CCE5FF;
+	color: black;
+}
+
+.dropdown:hover .dropbtn{
+	background-color: #CCE5FF;
+	color: black;
+}
+
+.main {
+	background-color: white;
+	padding: 25px;
+	text-align: center;
+}
+
+.footer {
+	background-color: #808080;
+	padding: 25px;
+	text-align: center;
+}
+
+.image {
+	text-align: center;
+	background-color: #808080;
+	padding: 100px;
+	max-width: 100%; 
+	height: auto; 
+	background-size:cover;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.grid-item {
+	text-align: center;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+}
+
+/* Style για πίνακα */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+td, th {
+	border: 1px solid #b3d9ff;
+	padding: 10px;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #b3d9ff;
+}
+
+#mapid {
+	height: 500px;
+	width: 100%;
+}

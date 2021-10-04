@@ -1,0 +1,69 @@
+<!-- Υλοποίηση σελίδας "σχετικά με"-->
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<html>
+
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "main_style.css">
+<link rel = "stylesheet" type = "text/css" href = "main_form_style.css">
+
+<title>Σχετικά με την εφαρμογή</title>
+
+</head>
+
+<body>
+<!-- Τίτλος Ιστοσελίδας-->
+<div class="header">
+	<h1>HTTP Monitoring System</h1>
+	<h2>Based on croudsourced data</h2>
+</div>
+
+<!-- Menu bar-->
+<div class="menubar">
+	<a href="index.html">Αρχική Σελίδα</a>
+	<a href="about.html">Σχετικά με την εφαρμογή</a>
+	<a href="register.php" class="right">Εγγραφή</a>
+	<a href="login.php" class="right">Σύνδεση</a>
+</div>
+
+<!-- Main Layout Area-->
+<div class="main" style="text-align: left">
+	<h2>Πληροφορίες σχετικά με την εφαρμογή:</h2>
+	<p>
+		<b>Λειτουργία της εφαρμογής: </b> Η συγκεκριμένη εφαρμογή, δέχεται από τους χρήστες αρχεία βασισμένα στο πρότυπο <b>HAR</b> (<b>HTTP</b> <b>A</b>rchive), με σκοπό την ανάλυση των δεδομένων από τα αρχεία για την παρατήρηση της υποδομής του διαδικτύου σε μια περιοχή. <br> Οι χρήστες μπορούν να συλλέξουν αρχεία HAR, κατά την περιήγησή τους στο διαδίκτυο, μέσω του φυλλομετρητή τους. Στη συνέχεια μπορούν να τα ανεβάσουν στο περιβάλλον της εφαρμογής για παραπάνω ανάλυση των δεδομένων.
+	</p>
+	<p>
+		<b>Δυνατότητες από την πλευρά του χρήστη: </b> <br>
+		<ul>
+			<li><b>Ανέβασμα των αρχείων HAR στην εφαρμογή:</b> Ο χρήστης ανεβάζει ένα αρχείο HAR στην εφαρμογή. Το αρχείο αυτό επεξεργάζεται κατάλληλα για την προστασία των προσωπικών δεδομένων του χρήστη.</li>
+			<li><b>Οπτικοποίηση δεδομένων:</b> Παρουσίαση σε χάρτη όλων των τοποθεσιών από τις οποίες έχει αποστείλει αρχεία στην εφαρμογή.</li>
+		</ul>
+	</p>
+	<b>Μάθετε περισσότερα σχετικά με το πρότυπο HAR: <a href="http://www.softwareishard.com/blog/har-12-spec/" target="_blank">εδώ</a></b>
+	<div class="main">
+		<p>
+		<b>Για να χρησιμοποιήσετε την εφαρμογή, θα πρέπει να διαθέτετε λογαριασμό χρήστη.</b> </p>
+		<button type="submit" class="button_submit" onclick="window.location.href='login.php'" style="width: 250px">Συνδεθείτε</button> &nbsp;
+		<button type="submit" class="button_submit" onclick="window.location.href='register.php'" style="width: 250px">Δημιουργήστε Λογαριασμό</button> &nbsp;
+	</div>
+</div>
+
+
+<!--Footer-->
+<div class="footer">
+	<p>
+	Copyright 2020 
+	<br> Η τρέχουσα διαδικτυακή εφαρμογή αναπτύχθηκε στα πλαίσια του μαθήματος "Προγραμματισμός και Συστήματα στον Παγκόσμιο Ιστό 
+	<br> Πανεπιστήμιο Πατρών 
+	<br> Πολυτεχνική Σχολή 
+	<br> Τμήμα Μηχανικών Η/Υ και Πληροφορικής 
+	<br> Τομέας Λογικού των Υπολογιστών 
+	</p>
+</div>
+
+</body>
+
+
+</html>
